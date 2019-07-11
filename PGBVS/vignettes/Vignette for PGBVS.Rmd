@@ -112,7 +112,7 @@ clusters$eval_vi
 ```
 
 Lastly to help assess convergence of the model, users can generate plots of the total number of fixed and random effects selected in the model across MCMC iterations. 
-```{r }
+```{r, fig.width = 3.5, fig.height= 2 }
 plot.selected( bvsPG.out = test )
 ```
 
