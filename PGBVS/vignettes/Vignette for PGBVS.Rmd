@@ -91,7 +91,7 @@ plot.PGBVS( bvsPG.out = test, s.function = 1   )
 ```
 
 generates a plot of the log odds ratio as a function of $\boldsymbol{U}$ for the fixed intercept term. To obtain a plot of the second smooth function, simply run 
-```{r, fig.width = 3.5, fig.height= 2 }
+```{r }
 plot.PGBVS( bvsPG.out = test, s.function = 2  )
 ```
 
