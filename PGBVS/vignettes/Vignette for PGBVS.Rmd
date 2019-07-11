@@ -110,11 +110,5 @@ true_clusters <- c(1,2,3,1,1,2,1,2,3,1,3,2,1,1,3,rep(1,30))[seq(1,45)%%3 != 1]
 clusters <- clustering( MCMC = t( beta_cluster_MCMC ), true_clusters = true_clusters )
 clusters$eval_vi
 ```
-
-Lastly to help assess convergence of the model, users can generate plots of the total number of fixed and random effects selected in the model across MCMC iterations. 
-```{r, fig.width = 3.5, fig.height= 2 }
-plot.selected( bvsPG.out = test )
-```
-
-Here, we can see after a burn-in of 375 iterations the number of fixed and random effects in the model stablizes around 12 and 7 terms, respectively. Additionally, the output can easily be transformed into a format that is readable by the `coda` package in R for further summaries, plotting, and diagnostics. 
+Additionally, the output can easily be transformed into a format that is readable by the `coda` package in R for further summaries, plotting, and diagnostics. 
 
