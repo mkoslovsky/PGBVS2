@@ -5,7 +5,7 @@ package: PGBVS
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{An Efficient Bayesian Varying-Coefficient Modeling Approach for Behavioral mHealth Data}
+  %\VignetteIndexEntry{PGBVS Vignette}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
